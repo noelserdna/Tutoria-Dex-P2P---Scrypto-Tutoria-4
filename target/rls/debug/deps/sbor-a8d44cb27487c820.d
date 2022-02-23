@@ -1,0 +1,11 @@
+c:\Users\Andres\radixdlt-scrypto\Dex\target\rls\debug\deps\sbor-a8d44cb27487c820.rmeta: C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\lib.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\any.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\decode.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\describe.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\encode.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\rust.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\type_id.rs
+
+c:\Users\Andres\radixdlt-scrypto\Dex\target\rls\debug\deps\sbor-a8d44cb27487c820.d: C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\lib.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\any.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\decode.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\describe.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\encode.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\rust.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\type_id.rs
+
+C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\lib.rs:
+C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\any.rs:
+C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\decode.rs:
+C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\describe.rs:
+C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\encode.rs:
+C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\rust.rs:
+C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor\src\type_id.rs:

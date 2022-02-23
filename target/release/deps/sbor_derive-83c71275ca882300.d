@@ -1,0 +1,10 @@
+C:\Users\Andres\radixdlt-scrypto\Dex\target\release\deps\sbor_derive-83c71275ca882300.dll: C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\lib.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\decode.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\describe.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\encode.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\type_id.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\utils.rs
+
+C:\Users\Andres\radixdlt-scrypto\Dex\target\release\deps\sbor_derive-83c71275ca882300.d: C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\lib.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\decode.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\describe.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\encode.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\type_id.rs C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\utils.rs
+
+C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\lib.rs:
+C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\decode.rs:
+C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\describe.rs:
+C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\encode.rs:
+C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\type_id.rs:
+C:\Users\Andres\.cargo\git\checkouts\radixdlt-scrypto-1833d92590086ce0\7cb4af0\sbor-derive\src\utils.rs:
