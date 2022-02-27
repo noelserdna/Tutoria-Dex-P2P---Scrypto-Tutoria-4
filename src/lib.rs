@@ -15,8 +15,9 @@ use scrypto::prelude::*;
 
 #[derive(NonFungibleData)]
 struct OrdenData {
-    #[scrypto(mutable)]
+    #[scrypto(mutable)] 
     retirado: bool,
+    #[scrypto(mutable)]
     vendido: bool
 }
 
@@ -30,7 +31,7 @@ blueprint! {
         identification_admin_def: ResourceDef,   
 
         comision: Decimal,
-        caja_comision: Vault
+        bolsa_comision: Vault
         }
 
     impl DexP2p {
@@ -53,7 +54,7 @@ blueprint! {
                 registro_orden: HashMap::new(),
                 registro_ventas: HashMap::new(),
                 comision: fee,
-                caja_comision: Vault::new(RADIX_TOKEN),
+                bolsa_comision: Vault::new(RADIX_TOKEN),
                 identification_minter: Vault::with_bucket(identification_minter),
                 identification_nft_def: identification_nft_def,
                 identification_admin_def: identification_admin.resource_def()
@@ -72,7 +73,7 @@ blueprint! {
         pub fn nueva_orden(&mut self, activo_comprar: Address, activo_vender: Bucket, precio_compra: Decimal, mut fee_xrd: Bucket) -> (Bucket, Bucket) {
 
             assert!(fee_xrd.amount() >= self.comision , "Comisión insuficiente");  
-            self.caja_comision.put(fee_xrd.take(self.comision));
+            self.bolsa_comision.put(fee_xrd.take(self.comision));
 
             let badge = self.identification_minter.authorize(|auth| {
                 self.identification_nft_def.mint_non_fungible(&NonFungibleKey::from(Uuid::generate()), OrdenData{retirado: false, vendido: false}, auth)
@@ -106,7 +107,7 @@ blueprint! {
 
             assert!(orden.1.amount() > Decimal::zero() , "Esta orden ya ha sido ejecutada");
             
-            self.caja_comision.put(fee_xrd.take(self.comision));
+            self.bolsa_comision.put(fee_xrd.take(self.comision));
 
             let cantidad: Decimal = orden.1.amount() / orden.2;
             assert_eq!(orden.0, pago.resource_address(), "El pago no coincide con el activo de venta"); 
